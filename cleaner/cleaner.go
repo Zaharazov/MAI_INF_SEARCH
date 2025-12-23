@@ -67,8 +67,8 @@ func main() {
 	}
 
 	db := client.Database("local")
-	rawCol := db.Collection("IS_lab3")
-	cleanCol := db.Collection("IS_lab3_clean")
+	rawCol := db.Collection("IS_lab2")
+	cleanCol := db.Collection("IS_lab2_clean")
 
 	_, _ = cleanCol.DeleteMany(ctx, bson.M{})
 
