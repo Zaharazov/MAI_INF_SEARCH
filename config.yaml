@@ -1,0 +1,10 @@
+db:
+  uri: "mongodb://172.29.32.1:27017"
+  database: "local"
+  collection: "IS_lab3"
+
+logic:
+  sitemap: "https://www.vavel.com/en/sitemap/global.xml"
+  # sitemap: "https://www.sportsunfold.com/sitemap.xml"
+  delay: 100
+  recrawl_hours: 24
